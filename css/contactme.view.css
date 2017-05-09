@@ -1,0 +1,41 @@
+.firstInput{
+  margin-top: 15px;
+}
+
+.secondInput{
+  margin-top: 15px;
+}
+
+.thirdInput{
+  margin-top: 15px;
+}
+
+.fourthInput textarea{
+  margin-top: 15px;
+  height: 100px;
+}
+
+.button-container{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.locate-me{
+  display: flex;
+
+  justify-content: center;
+  /*align-items: flex-end;*/
+  height: 100px;
+}
+
+.locate-me img{
+  width: 30px;
+  margin-left: 10px;
+
+
+
+
+}
