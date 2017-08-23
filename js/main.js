@@ -1,5 +1,6 @@
 
-// TweenLite.to(".shoot", 2, {width: "100px", height: "60px"});
+
+TweenLite.to(".shoot", 2, {width: "100px", height: "60px"});
 
 window.onload = function(){
   var logo = document.getElementById("logo");
@@ -21,13 +22,13 @@ window.onload = function(){
 TweenLite.to(".firstSlice", 2, {text:"THIS IS NEW TEXT"});
 
 
-
+//Uncomment to test if your JavaScript is working
 // window.alert("Your JavaScript is Running");
 
-// function myFunction() {
-//
-// var photo = document.getElementById("para");
-// TweenLite.to(para, 2, {width: "200px", height: "150px"});
-//
-//s
-// }
+function myFunction() {
+
+var photo = document.getElementById("para");
+TweenLite.to(para, 2, {width: "200px", height: "150px"});
+
+s
+}

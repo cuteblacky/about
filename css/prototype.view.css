@@ -1,0 +1,183 @@
+
+
+.navigation-bar{
+
+  height: 50px;
+  background: #FEFEFE;
+}
+
+.navigation-bar svg{
+  width: 200px;
+  height: 50px;
+  margin-left: 500px;
+}
+.dashboard-menu {
+
+  height: 1200px;
+  background: #CFF27E;
+}
+.dashboard-menu p{
+  font-size: 8pt;
+  text-align: center;
+}
+
+.person {
+  height: 70px;
+  background: red;
+  margin-top: 10px;
+  border-radius: 50%;
+
+}
+
+.first-menu{
+  padding: 20px;
+  height: 200px;
+  background: #AFE9F4;
+}
+
+.user-menu{
+  background: #0E7DC2;
+  height: 150px;
+
+}
+
+.box{
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+.box2{
+  width: 150px;
+  height: 100px;
+  background: gray;
+}
+
+
+.stacked-icon{
+  height: 100px;
+  background: red;
+}
+
+
+.myguide2{
+  height: 75px;
+
+}
+.myguide3{
+  height: 75px;
+
+}
+.tinybox{
+  height: 65px;
+  background: #FEFEFE;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 8pt;
+}
+p{
+  padding-top: 5px;
+}
+span{
+  font-size: 15pt ;
+}
+.smallBox{
+  height: 75px;
+  background: #D1F3FD;
+  border-left: 1px solid #FBFFFF;
+  border-right:  1px solid #FBFFFF;
+}
+
+.second-menu{
+  padding: 20px;
+  height: 650px;
+  background: #AFE9F4;
+}
+
+.rectangle{
+  height: 400px;
+  /*background: #D0E3CC;*/
+  margin-top: 10px;
+
+}
+
+
+iframe{
+  width: 100%;
+  height: 400px;
+}
+
+.square{
+  height: 400px;
+  background: #AFE9F4;
+    margin-top: 10px;
+
+
+}
+
+.first-square{
+  background: #DDB1CA;
+  height: 180px;
+  margin-top: 10px;
+}
+
+.second-square{
+  background: #CFF27E;
+  height: 180px;
+  margin-top: 20px;
+
+
+}
+
+.third-menu{
+  height: 300px;
+  background: #AFE9F4;
+  display: flex;
+}
+.equalBox{
+  height:250px;
+  background: #EFD780;
+  margin: 20px;
+
+}
+
+.longRectangle{
+  height:250px;
+  background: #EFD780;
+  padding: 20px;
+}
+
+.longRectangleContent{
+  height: 200px;
+  background: #D0E3CC;
+
+
+}
+
+
+.first-icon-container{
+  height: 65px;
+  background: #FF8764;
+
+}
+
+.second-icon-container{
+  height: 65px;
+  background: #57BEDF;
+
+}
+
+.third-icon-container{
+  height: 65px;
+  background: #B198DC;
+
+}
+
+.fourth-icon-container{
+  height: 65px;
+  background: #6CC7BE;
+
+}
+#icon{
+  padding-top: 20px;
+}

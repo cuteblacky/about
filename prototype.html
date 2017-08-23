@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PairWash - Online Car Washing System</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/prototype.view.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.structure.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.theme.min.css" />
+
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 navigation-bar ">
+
+                <svg version="1.1" id=“logo” xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 586.2 150.8" style="enable-background:new 0 0 586.2 150.8;" xml:space="preserve">
+<style type="text/css">
+.st0{font-family:'Avenir-Medium';}
+.st1{font-size:110px;}
+.st2{fill:#FFFFFF;}
+.st3{fill:none;}
+</style>
+<text id="XMLID_18_" transform="matrix(1 0 0 1 -5.3886 105.819)" class="st0 st1">PAIR WASH</text>
+<polygon id="XMLID_17_" class="st2" points="256.2,75.3 249.1,70.1 182.4,141.6 "/>
+<polyline id="XMLID_13_" class="st2" points="217.7,56.5 151,127.9 224.8,61.7 "/>
+<polyline id="XMLID_11_" class="st2" points="192.7,43.3 126.1,114.8 199.9,48.5 "/>
+<polygon id="XMLID_10_" class="st2" points="386.3,75.1 379.2,69.8 312.6,141.3 "/>
+<polyline id="XMLID_9_" class="st2" points="347.8,56.2 281.1,127.7 354.9,61.4 "/>
+<polyline id="XMLID_8_" class="st2" points="322.9,43.1 256.2,114.6 330,48.3 "/>
+<path id="XMLID_x5F_23_x5F_" class="st3" d="M155.8,34.4l-66.6,71.5L163,39.6"/>
+<text id="XMLID_12_"><textPath  xlink:href="#XMLID_x5F_23_x5F_" startOffset="81.177%">
+</textPath>
+</text>
+<polyline id="XMLID_62_" class="st2" points="527.7,34.4 461,105.8 534.8,39.6 "/>
+<polyline id="XMLID_63_" class="st2" points="119,31.9 52.3,103.4 126.1,37.1 "/>
+<polyline id="XMLID_64_" class="st2" points="468.8,43.1 402.1,114.6 475.9,48.3 "/>
+</svg>
+
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 dashboard-menu">
+                <p> Available Now <span class="glyphicon glyphicon-map-marker"></span></p>
+
+                <div class="row-fluid">
+                    <img src="https://passportinfo.files.wordpress.com/2016/09/passport-photo.jpg?w=600" class="person img-responsive">
+                    </img>
+                    <img src="http://selfobserved.org/wp-content/uploads/2012/06/passport-photo.jpg" class="person img-responsive">
+                    </img>
+                    <img src="http://pective.com/m/2x2" class="person img-responsive">
+                    </img>
+                    <img src="https://passportinfo.files.wordpress.com/2016/09/passport-photo.jpg?w=600" class="person img-responsive">
+                    </img>
+                    <img src="http://selfobserved.org/wp-content/uploads/2012/06/passport-photo.jpg" class="person img-responsive">
+                    </img>
+                    <img src="http://pective.com/m/2x2" class="person img-responsive">
+                    </img>
+                    <img src="https://passportinfo.files.wordpress.com/2016/09/passport-photo.jpg?w=600" class="person img-responsive">
+                    </img>
+                    <img src="http://selfobserved.org/wp-content/uploads/2012/06/passport-photo.jpg" class="person img-responsive">
+                    </img>
+                    <img src="http://pective.com/m/2x2" class="person img-responsive">
+                    </img>
+
+
+
+                </div>
+            </div>
+            <div class="col-md-11 first-menu">
+                <div class="col-md-3  user-menu">
+                    <h6>Clifford Frederik</h6>
+                    <div class = "row">
+                    <div class="col-md-3 col-md-offset-1 box">
+
+
+
+                    </div>
+
+                    <div class="col-md-1 col-md-offset-2 box2">
+                      <p>Welcome back Clifford!</p>
+
+
+
+
+                    </div>
+
+                    <div class = "col-md-12 stacked-icon"></div>
+                  </div>
+
+                </div>
+
+
+
+                <div class="col-md-9 myguide2">
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1 tinybox">
+                            <div class="row">
+                                <div class="first-icon-container col-md-5">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="icon" x="0px" y="0px" viewBox="0 0 70.074 70.074" style="enable-background:new 0 0 70.074 70.074;" xml:space="preserve">
+                                  <g>
+                                  	<g>
+                                  		<path d="M39.38,40.773c-0.659-0.454-1.913-0.938-3.761-1.457v-5.819c1.098,0.04,1.896,0.463,2.398,1.266    c0.269,0.439,0.436,0.96,0.487,1.565h2.092c-0.043-1.35-0.483-2.437-1.329-3.258c-0.845-0.824-2.069-1.29-3.65-1.401v-1.565    h-1.133v1.587c-1.603,0.018-2.848,0.512-3.735,1.482c-0.887,0.972-1.329,2.064-1.329,3.273c0,1.355,0.406,2.409,1.23,3.176    c0.825,0.767,2.098,1.313,3.833,1.638v6.51c-1.351-0.114-2.275-0.62-2.775-1.519c-0.276-0.5-0.447-1.299-0.517-2.387h-2.109    c0,1.373,0.226,2.457,0.68,3.26c0.827,1.489,2.396,2.311,4.721,2.462v2.321h1.133v-2.321c1.438-0.158,2.541-0.484,3.307-0.977    c1.378-0.895,2.066-2.396,2.066-4.52C40.993,42.628,40.452,41.52,39.38,40.773z M34.486,39.088    c-0.898-0.176-1.603-0.488-2.126-0.931c-0.528-0.447-0.79-1.065-0.79-1.853c0-0.652,0.224-1.277,0.665-1.873    c0.445-0.599,1.201-0.916,2.25-0.956V39.088z M38.436,46.337c-0.516,0.936-1.455,1.433-2.817,1.497v-6.282    c0.995,0.271,1.701,0.557,2.124,0.862c0.734,0.518,1.102,1.272,1.102,2.268C38.844,45.307,38.705,45.86,38.436,46.337z" fill="#FFFFFF"/>
+                                  		<path d="M63.737,17.097H47.982v-3.484c0-4.658-3.791-8.449-8.449-8.449h-8.992c-4.658,0-8.449,3.791-8.449,8.449v3.484H6.337    C2.853,17.097,0,19.95,0,23.433v35.142c0,3.483,2.853,6.335,6.337,6.335h57.4c3.485,0,6.337-2.852,6.337-6.335V23.433    C70.074,19.95,67.223,17.097,63.737,17.097z M26.32,13.613c0-2.329,1.897-4.224,4.226-4.224h8.993    c2.326,0,4.227,1.895,4.227,4.224v3.484H26.322v-3.484H26.32z M35.037,54.736c-7.583,0-13.732-6.147-13.732-13.728    c0-7.586,6.149-13.734,13.732-13.734c7.587,0,13.732,6.148,13.732,13.734C48.77,48.589,42.624,54.736,35.037,54.736z" fill="#FFFFFF"/>
+                                  	</g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  <g>
+                                  </g>
+                                  </svg>
+
+
+
+                                </div>
+                                <p>Total Sales </p><span>&#36;1500</span>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-2 col-md-offset-1 tinybox">
+                            <div class="row">
+                                <div class="second-icon-container col-md-5">
+
+                                    <svg version="1.1" id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                                <path style="fill:#D75A4A;" d="M24.85,10.126c2.018-4.783,6.628-8.125,11.99-8.125c7.223,0,12.425,6.179,13.079,13.543
+                                  c0,0,0.353,1.828-0.424,5.119c-1.058,4.482-3.545,8.464-6.898,11.503L24.85,48L7.402,32.165c-3.353-3.038-5.84-7.021-6.898-11.503
+                                  c-0.777-3.291-0.424-5.119-0.424-5.119C0.734,8.179,5.936,2,13.159,2C18.522,2,22.832,5.343,24.85,10.126z"/>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                </svg>
+
+
+
+
+                                </div>
+                                <p>Likes </p><span>1000</span>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-2 col-md-offset-1 tinybox">
+
+                            <div class="row">
+                                <div class="third-icon-container col-md-5">
+
+                                    <svg version="1.1" id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                  <path style="fill:#FCDE76;" d="M504,136c-13.233,0-24-10.767-24-24c0-4.418-3.582-8-8-8s-8,3.582-8,8c0,13.233-10.767,24-24,24
+                                    c-4.418,0-8,3.582-8,8s3.582,8,8,8c13.233,0,24,10.767,24,24c0,4.418,3.582,8,8,8s8-3.582,8-8c0-13.233,10.767-24,24-24
+                                    c4.418,0,8-3.582,8-8S508.418,136,504,136z"/>
+                                  <path style="fill:#FCDE76;" d="M72,136c-13.233,0-24-10.767-24-24c0-4.418-3.582-8-8-8s-8,3.582-8,8c0,13.233-10.767,24-24,24
+                                    c-4.418,0-8,3.582-8,8s3.582,8,8,8c13.233,0,24,10.767,24,24c0,4.418,3.582,8,8,8s8-3.582,8-8c0-13.233,10.767-24,24-24
+                                    c4.418,0,8-3.582,8-8S76.418,136,72,136z"/>
+                                  <path style="fill:#FCDE76;" d="M296,40c-17.645,0-32-14.355-32-32c0-4.418-3.582-8-8-8s-8,3.582-8,8c0,17.645-14.355,32-32,32
+                                    c-4.418,0-8,3.582-8,8s3.582,8,8,8c17.645,0,32,14.355,32,32c0,4.418,3.582,8,8,8s8-3.582,8-8c0-17.645,14.355-32,32-32
+                                    c4.418,0,8-3.582,8-8S300.418,40,296,40z"/>
+                                </g>
+                                <g>
+                                  <path style="fill:#E6608D;" d="M495,232h-40c-3.671,0-6.871,2.498-7.761,6.06l-8,32c-0.598,2.39-0.061,4.922,1.455,6.863
+                                    C442.21,278.865,444.536,280,447,280h48c4.418,0,8-3.582,8-8v-32C503,235.582,499.418,232,495,232z"/>
+                                  <path style="fill:#E6608D;" d="M62.761,238.06c-0.89-3.562-4.09-6.06-7.761-6.06H15c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8
+                                    h48c2.463,0,4.79-1.135,6.306-3.077c1.516-1.941,2.053-4.474,1.456-6.863L62.761,238.06z"/>
+                                  <path style="fill:#E6608D;" d="M479.549,323.006L447,280l-40.921-117.313C400.445,146.725,385.287,136,368.359,136H141.641
+                                    c-16.927,0-32.086,10.725-37.72,26.688L63,280l-32.549,43.005C25.576,329.829,23,337.868,23,346.255V440c0,4.418,3.582,8,8,8h448
+                                    c4.418,0,8-3.582,8-8v-93.745C487,337.868,484.423,329.828,479.549,323.006z"/>
+                                </g>
+                                <path style="fill:#D4506F;" d="M368.359,136H141.641c-16.927,0-32.086,10.725-37.72,26.688L63,280h384l-40.921-117.313
+                                  C400.445,146.725,385.287,136,368.359,136z"/>
+                                <path style="fill:#E6608D;" d="M93.614,272c-5.52,0-9.381-5.458-7.544-10.663l32.938-93.325c3.38-9.578,12.475-16.013,22.632-16.013
+                                  h226.719c10.156,0,19.252,6.435,22.632,16.012l32.938,93.326c1.837,5.205-2.024,10.663-7.544,10.663H93.614z"/>
+                                <path style="fill:#878493;" d="M412.622,253.338l-29.175-82.662C381.194,164.29,375.131,160,368.359,160H141.641
+                                  c-6.771,0-12.835,4.29-15.088,10.675l-29.175,82.663c-0.864,2.448-0.486,5.163,1.013,7.282c1.5,2.12,3.935,3.38,6.531,3.38h300.157
+                                  c2.597,0,5.031-1.26,6.53-3.38C413.108,258.501,413.486,255.786,412.622,253.338z"/>
+                                <path style="fill:#787485;" d="M141.641,160c-6.771,0-12.835,4.29-15.088,10.675l-29.175,82.663
+                                  c-0.864,2.448-0.486,5.163,1.013,7.282c1.5,2.12,3.935,3.38,6.531,3.38h123.015l31.077-104L141.641,160L141.641,160z"/>
+                                <path style="fill:#F59F3F;" d="M399,352c-26.916,0-48,14.056-48,32s21.084,32,48,32s48-14.056,48-32S425.916,352,399,352z"/>
+                                <path style="fill:#FCDE76;" d="M399,408c-22.056,0-40-10.767-40-24s17.944-24,40-24s40,10.767,40,24S421.056,408,399,408z"/>
+                                <path style="fill:#FCCF6F;" d="M367,380c0-5.022,1.908-9.735,5.229-13.815C364.112,370.581,359,376.938,359,384
+                                  c0,13.233,17.944,24,40,24c1.41,0,2.802-0.045,4.174-0.131C382.907,406.516,367,394.535,367,380z"/>
+                                <path style="fill:#F59F3F;" d="M111,352c-26.916,0-48,14.056-48,32s21.084,32,48,32s48-14.056,48-32S137.916,352,111,352z"/>
+                                <path style="fill:#FCDE76;" d="M111,408c-22.056,0-40-10.767-40-24s17.944-24,40-24s40,10.767,40,24S133.056,408,111,408z"/>
+                                <path style="fill:#FCCF6F;" d="M79,380c0-5.022,1.908-9.735,5.229-13.815C76.112,370.58,71,376.938,71,384c0,13.233,17.944,24,40,24
+                                  c1.41,0,2.802-0.045,4.174-0.131C94.907,406.516,79,394.535,79,380z"/>
+                                <g>
+                                  <path style="fill:#787485;" d="M111,464H47c-4.418,0-8,3.582-8,8v24c0,8.822,7.178,16,16,16h48c8.822,0,16-7.178,16-16v-24
+                                    C119,467.582,115.418,464,111,464z"/>
+                                  <path style="fill:#787485;" d="M463,464h-64c-4.418,0-8,3.582-8,8v24c0,8.822,7.178,16,16,16h48c8.822,0,16-7.178,16-16v-24
+                                    C471,467.582,467.418,464,463,464z"/>
+                                </g>
+                                <g>
+                                  <path style="fill:#696578;" d="M111,464H47c-4.418,0-8,3.582-8,8v15.953c6.854,5.123,15.286,8.021,24.128,8.045
+                                    c0.488,0.001,0.977,0.002,1.465,0.002c0.477,0,0.955-0.001,1.432-0.001H119V472C119,467.582,115.418,464,111,464z"/>
+                                  <path style="fill:#696578;" d="M463,464h-64c-4.418,0-8,3.582-8,8v23.998h56c4.823,0,9.542-0.852,14.027-2.53
+                                    c3.626-1.358,6.97-3.226,9.973-5.495V472C471,467.582,467.418,464,463,464z"/>
+                                </g>
+                                <path style="fill:#D2D1D6;" d="M295,336h-80c-22.056,0-40,17.944-40,40v64c0,4.418,3.582,8,8,8h144c4.418,0,8-3.582,8-8v-64
+                                  C335,353.944,317.056,336,295,336z"/>
+                                <g>
+                                  <path style="fill:#9693A0;" d="M335,376c0-2.739-0.278-5.414-0.805-8h-158.39c-0.527,2.586-0.805,5.261-0.805,8v8h160V376z"/>
+                                  <rect x="175" y="400" style="fill:#9693A0;" width="160" height="16"/>
+                                </g>
+                                <g>
+                                  <path style="fill:#D4506F;" d="M135,344H87c-4.418,0-8-3.582-8-8s3.582-8,8-8h48c4.418,0,8,3.582,8,8S139.418,344,135,344z"/>
+                                  <path style="fill:#D4506F;" d="M423,344h-48c-4.418,0-8-3.582-8-8s3.582-8,8-8h48c4.418,0,8,3.582,8,8S427.418,344,423,344z"/>
+                                  <path style="fill:#D4506F;" d="M484.66,434.346c-1.501-1.502-3.537-2.346-5.66-2.346H31c-4.418,0-8,3.582-8,8
+                                    c0,8.015,2.493,16.056,7.021,22.642c7.45,10.833,19.826,17.322,33.107,17.358c0.488,0.001,0.977,0.002,1.465,0.002
+                                    c0.477,0,0.955-0.001,1.432-0.001L447,480c4.823,0,9.542-0.852,14.027-2.53c15.518-5.812,25.955-20.866,25.973-37.462
+                                    C487.002,437.885,486.16,435.849,484.66,434.346z"/>
+                                </g>
+                                <g>
+                                  <circle style="fill:#FDFAB6;" cx="111" cy="384" r="8"/>
+                                  <circle style="fill:#FDFAB6;" cx="399" cy="384" r="8"/>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                </svg>
+
+
+
+                                </div>
+                                <p>Washed </p><span>1600</span>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-1 tinybox">
+
+                            <div class="row">
+                                <div class="fourth-icon-container col-md-5">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="icon" x="0px" y="0px" viewBox="0 0 318.568 318.568" style="enable-background:new 0 0 318.568 318.568;" xml:space="preserve">
+                                <g>
+                                  <path d="M282.354,90.237c-0.025-0.024-0.756-0.684-1.653-1.397c0.007-0.417,0.013-0.829,0.013-1.236   c0-41.594-33.84-75.432-75.433-75.432c-1.224,0-2.459,0.032-3.728,0.098C189.274,4.232,175.093,0,160.335,0   c-37.702,0-69.392,27.943-74.649,64.656c-22.81,8.123-38.265,29.68-38.265,54.381c0,2.538,0.179,5.146,0.53,7.75   c0.292,2.165,1.38,4.047,2.942,5.375l0.844,8.272c-22.93,39.368-46.41,91.817-29.42,119.938   c7.203,11.922,20.221,17.95,38.734,17.95c0.539,0,3.192-0.055,3.984-0.09c4.836-0.1,55.033-3.125,99.4-82.706   c-2.631-2.82-4.252-6.592-4.252-10.752c0-8.716,7.066-15.782,15.782-15.782c8.717,0,15.783,7.066,15.783,15.782   c0,8.043-6.021,14.667-13.798,15.645c-45.502,80.454-94.065,91.801-110.586,93.227l1.453,14.25   c0.559,6.046,5.631,10.673,11.705,10.673h161.283c6.074,0,11.146-4.627,11.706-10.673l12.504-122.56   c21.054-8.108,36.04-28.539,36.04-52.415C302.057,116.325,294.795,100.842,282.354,90.237z M38.085,250.845   c-7.651-12.664-1.144-41.473,16.973-77.853l8.859,86.843C50.698,260.37,42.011,257.342,38.085,250.845z M245.901,171.939   c-13.929,0-24.895-3.934-32.594-11.693c-13.291-13.398-13.28-34.298-13.278-34.478c0.034-2.294-0.854-4.506-2.464-6.141   c-1.61-1.634-3.809-2.555-6.104-2.555H64.602c0.855-17.981,13.354-33.243,30.988-37.51c1.128-0.236,17.002-3.262,29.596,11.433   c1.695,1.978,4.095,2.993,6.51,2.993c1.973,0,3.956-0.678,5.572-2.063c3.593-3.08,4.009-8.488,0.93-12.081   c-11.534-13.457-25.094-17.064-34.605-17.687c6.037-25.893,29.324-45.02,56.742-45.02c12.219,0,23.931,3.756,33.865,10.861   c1.669,1.194,3.714,1.752,5.756,1.564c1.893-0.171,3.635-0.254,5.325-0.254c29.204,0,53.457,21.588,57.649,49.643   c-9.946-3.61-22.943-5.37-37.125,0.37c-4.386,1.775-6.503,6.771-4.728,11.157c1.776,4.386,6.772,6.502,11.157,4.727   c14.631-5.923,27.793,0.317,34.298,4.525c0.222,0.179,0.44,0.358,0.683,0.516c11.086,7.247,17.705,19.462,17.705,32.676   C284.921,154.435,267.417,171.939,245.901,171.939z" fill="#FFFFFF"/>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                </svg>
+
+
+
+
+                                </div>
+                                <p>Wash </p><span>1208</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 myguide3">
+                    <div class="col-md-3 smallBox">
+                    </div>
+                    <div class="col-md-3 smallBox">
+                    </div>
+                    <div class="col-md-3 smallBox">
+                    </div>
+                    <div class="col-md-3 smallBox">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class=" col-md-offset-1 second-menu ">
+                <div class="col-md-6 rectangle">
+                    <div class="row">
+
+                          <!-- GOOGLE MAP API IMPLEMENTATION -->
+                          <iframe src="https://www.google.com/maps/embed/v1/directions?origin=Tate+Modern
+                              &destination=Tower+of+London
+                              &key=AIzaSyC8kxnjPaMCI4ldZL_DhMuHeyAKrUqYmaU">
+                          </iframe>
+
+
+                    </div>
+                </div>
+                <div class=" col-md-5 col-md-offset-1 square">
+                    <div class="column">
+                        <div class="col-md-12 first-square">
+                        </div>
+                        <div class="col-md-12 second-square">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-offset-1 third-menu">
+
+                <div class="col-md-6 col-md-offset-1  equalBox ">
+                </div>
+                <div class="col-md-6  equalBox">
+                </div>
+
+            </div>
+
+
+            <div class="col-md-offset-1  fourth-menu">
+                <div class="col-md-12 longRectangle">
+                    <div class="col-md-12 longRectangleContent">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="js/triggers.js"></script>
+</body>
+
+</html>

@@ -1,3 +1,4 @@
+
 .container-fluid {
     background: black;
 }
@@ -139,4 +140,49 @@ color: #EDF7D2;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 500px ){
+  .find-me{
+
+    margin-top: 30px;
+  }
+
+
+
+    .secondSlice {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        background: #2E456D;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .thirdSlice{
+      display: flex;
+      flex-direction: column;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      /*box-shadow: inset 0 0 40px #DCED31;*/
+      background: #488B49;
+      margin-bottom: 10px;
+    }
+
+    .fourthSlice{
+
+      display: flex;
+      flex-direction: column;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background: #DA4167;
+
+    }
+
+
+
 }
