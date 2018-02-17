@@ -1,31 +1,25 @@
 .big-circle {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .big-circle:hover {
   box-shadow: inset 10px 10px 300px 0 #5da19b;
-  border: 0.5rem solid rgba(255, 255, 255, 0.2);
-}
+  border: 0.5rem solid rgba(255, 255, 255, 0.2); }
 
 a {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 a:hover {
   color: #97ff96;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:active {
   color: #97ff96;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:focus {
   color: #97ff96;
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 /* .main-content {
 
   height: 110vh;
@@ -35,19 +29,15 @@ a:focus {
   background-position: center;
   overflow: hidden;
 } */
-
 .header {
   width: 110%;
   top: -5%;
   left: -5%;
-  transform: rotate(2deg);
-}
+  transform: rotate(2deg); }
 
 .header p {
   margin-left: 5%;
-  transform: rotate(-2deg);
-}
+  transform: rotate(-2deg); }
 
-.pt-4{
-  margin-top: 20px;
-}
+.pt-4 {
+  margin-top: 20px; }
