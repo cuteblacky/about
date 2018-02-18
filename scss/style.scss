@@ -1,5 +1,10 @@
 .big-circle {
-  background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 700px ;
+   border-radius: 50%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: url(http://res.cloudinary.com/cuteblacky/image/upload/v1516623461/circlebg_joajdm.svg);
 }
 
 
@@ -50,4 +55,86 @@ a:focus {
 
 .pt-4{
   margin-top: 20px;
+}
+
+
+.hoverable{
+  border-radius: 50%;
+}
+
+
+.hoverable-rectangle {
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+}
+
+.hoverable-rectangle:hover {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.small-circle{
+  height: 400px;
+  border-radius: 50%;
+  border: 4px solid #3b4b60;
+  font-size: 8pt;
+
+}
+.tiny-image{
+  margin-top: 30px;
+}
+
+
+// assume min-width (by default) if only a number
+$high-tide: 500px;
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+
+  .big-circle {
+        height: 600px !important;
+
+  }
+
+  .small-circle{
+    height: 400px;
+    border-radius: 50%;
+    border: 4px solid #3b4b60;
+    font-size: 8pt;
+    margin-top: 100px;
+
+  }
+}
+
+
+@media screen and (min-width: 1300px) {
+
+
+  .big-circle {
+        height: 700px !important;
+
+  }
+
+  .small-circle{
+    height: 550px;
+    border-radius: 50%;
+    border: 4px solid #3b4b60;
+    font-size: 12pt;
+    margin-top: 100px;
+
+  }
+
+  .tiny-image{
+    margin-top: 50px;
+  }
+
+
+
+
 }
